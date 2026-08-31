@@ -555,6 +555,38 @@
       "supports_response_schema": true,
       "supports_tool_choice": true,
       "supports_vision": true
+    },
+    "gemini-2.5-pro": {
+      "cache_creation_input_token_cost": 1.25e-06,
+      "cache_creation_input_token_cost_above_200k_tokens": 2.5e-06
+    },
+    "gemini-3-pro-preview": {
+      "cache_creation_input_token_cost": 2e-06,
+      "cache_creation_input_token_cost_above_200k_tokens": 4e-06,
+      "cache_creation_input_token_cost_priority": 3.6e-06,
+      "cache_creation_input_token_cost_above_200k_tokens_priority": 7.2e-06
+    },
+    "gemini-3.1-pro-preview": {
+      "cache_creation_input_token_cost": 2e-06,
+      "cache_creation_input_token_cost_above_200k_tokens": 4e-06,
+      "cache_creation_input_token_cost_priority": 3.6e-06,
+      "cache_creation_input_token_cost_above_200k_tokens_priority": 7.2e-06
+    },
+    "gemini-3.1-pro-high": {
+      "cache_creation_input_token_cost": 2e-06,
+      "cache_creation_input_token_cost_above_200k_tokens": 4e-06,
+      "cache_creation_input_token_cost_priority": 3.6e-06,
+      "cache_creation_input_token_cost_above_200k_tokens_priority": 7.2e-06
+    },
+    "gemini-3.1-pro-low": {
+      "cache_creation_input_token_cost": 2e-06,
+      "cache_creation_input_token_cost_above_200k_tokens": 4e-06,
+      "cache_creation_input_token_cost_priority": 3.6e-06,
+      "cache_creation_input_token_cost_above_200k_tokens_priority": 7.2e-06
+    },
+    "gemini-3.1-pro-preview-customtools": {
+      "cache_creation_input_token_cost": 2e-06,
+      "cache_creation_input_token_cost_above_200k_tokens": 4e-06
     }
   }
 }
